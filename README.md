@@ -28,5 +28,5 @@ This consists of these core patches:
 ## Demonstration
 | Before                                            | After             |
 | :-------------                                    | :-------------    |
-| ![](./before.png)                                 |  [](./after.png)  |
+| ![](./before.png)                                 |  ![](./after.png)  |
 |                                                   |                   |
