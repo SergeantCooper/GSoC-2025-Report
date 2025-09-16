@@ -26,7 +26,7 @@ This consists of these core patches:
 * [Pacth 186485](https://gerrit.libreoffice.org/c/core/+/186485) - Implements the core document conversion.
 
 ## Demonstration
-| Before        | After           |
-| ------------- |:-------------:|
-|       |  |
-| col 2 is      | centered      |
+| Before                                            | After             |
+| :-------------                                    | :-------------    |
+| ![](./before.png)                                 |  [](./after.png)  |
+|                                                   |                   |
