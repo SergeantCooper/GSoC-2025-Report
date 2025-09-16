@@ -4,20 +4,20 @@
 - **Mentors**: Thorsten Behrens, Ilmari Lauhakangas
 
 ## Project Overview
-This project implements Markdown support in LibreOffice Writer, ensuring compliance with the CommonMark specification. Imported Markdown content is structured appropriately within Writer, preserving headings, lists, code blocks, and other formatting elements.
+This project implements Markdown import support in LibreOffice Writer, with a focus on compliance with the CommonMark specification. The imported Markdown content is accurately structured within Writer, preserving headings, lists, code blocks, and other formatting elements.
 
 ## Core Goals Completed
-* Integrated MD4C markdown parser into LibreOffice's Build System.
-* Created an import filter for markdown files.
-* Implemented the core document conversion from markdown to Writer's Document Model.
-* Added Unit Tests for correct document conversion.
+* Integrated the MD4C Markdown parser into LibreOffice’s build system
+* Created a filter for importing Markdown files
+* Implemented document conversion from Markdown to Writer’s Document Model
+* Added unit tests to validate correct document conversion
 
 ## Stretch Goals Completed
-* Introduced clipboard support for Markdown files in Writer.
-* Parsed Markdown tables into Calc to allow pasting of markdown tables directly into Calc.
+* Added clipboard support for Markdown into Writer, enabling users to paste Markdown content directly from the clipboard into Writer
+* Enabled parsing of Markdown tables into Calc, allowing pasting of Markdown tables directly from the clipboard into Calc
 
 ## Implementation Details
-The core implementation consists of integration of the MD4C library and using it, to convert markdown elements into Writer elements.
+The core implementation involved integrating the MD4C library and mapping its parsed elements into LibreOffice Writer’s document model.
 
 This consists of these core patches:
 * [Patch 185170](https://gerrit.libreoffice.org/c/extern/+/185170) - Adds md4c library to the LibreOffice extern repository.
@@ -25,3 +25,8 @@ This consists of these core patches:
 * [Patch 186484](https://gerrit.libreoffice.org/c/core/+/186484) - Adds reading of Markdown files into Writer using the new filter.
 * [Pacth 186485](https://gerrit.libreoffice.org/c/core/+/186485) - Implements the core document conversion.
 
+## Demonstration
+| Before        | After           |
+| ------------- |:-------------:|
+|       |  |
+| col 2 is      | centered      |
