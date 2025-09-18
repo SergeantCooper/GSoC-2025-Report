@@ -62,3 +62,12 @@ This consists of these core patches:
 * **Optimize Performance**: Enhance the importer to improve efficiency and reduce loading times for large Markdown files.
 * **Error Reduction & Completeness**: Resolve any remaining conversion errors, while ensuring that all Markdown elements are fully and accurately mapped into Writer.
 * **Extend Support to Impress**: Continue work on importing Markdown files into LibreOffice Impress ([Work In Progress Patch](https://gerrit.libreoffice.org/c/core/+/189448)).
+
+## Learning & Experience
+
+This project was a valuable learning experience, giving me deeper insight into LibreOffice’s architecture and the challenges of integrating new features into a large codebase. I learned how the filter system interacts with different LibreOffice modules such as sw, sd, and sc, and how to map Markdown elements into Writer effectively.
+
+I also improved my skills in C++, build systems, and unit testing, while gaining experience with code reviews and collaborative development. Working with my mentors and the community taught me the importance of clear communication, iterative development, and maintaining quality through testing.
+
+Overall, this project strengthened my technical abilities and gave me confidence in contributing to large open-source projects like LibreOffice.
+
