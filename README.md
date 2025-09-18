@@ -42,21 +42,23 @@ This consists of these core patches:
 * [Patch 186485](https://gerrit.libreoffice.org/c/core/+/186485)
 
 ### Unit tests
-* [Patch 187449](https://gerrit.libreoffice.org/c/core/+/187449)
-* [Patch 188082](https://gerrit.libreoffice.org/c/core/+/188082)
+* [Patch 187449](https://gerrit.libreoffice.org/c/core/+/187449) - Introduces unit tests verifying Markdown lists and headings.
+* [Patch 188082](https://gerrit.libreoffice.org/c/core/+/188082) - Adds unit test for tables.
 
 ### Bug fixes and Others
-* [Patch 187622](https://gerrit.libreoffice.org/c/core/+/187622)
-* [Patch 187659](https://gerrit.libreoffice.org/c/core/+/187659)
-* [Patch 187658](https://gerrit.libreoffice.org/c/core/+/187658)
-* [Patch 187792](https://gerrit.libreoffice.org/c/core/+/187792)
-* [patch 188067](https://gerrit.libreoffice.org/c/core/+/188067)
-* [Patch 188528](https://gerrit.libreoffice.org/c/core/+/188528)
-* [Patch 190084](https://gerrit.libreoffice.org/c/core/+/190084)
-* [Patch 190286](https://gerrit.libreoffice.org/c/core/+/190286)
+* [Patch 187622](https://gerrit.libreoffice.org/c/core/+/187622) - Fixes uninitialized member variable in SwMarkdownParser.
+* [Patch 187659](https://gerrit.libreoffice.org/c/core/+/187659) - Registers Markdown filter in registry
+* [Patch 187658](https://gerrit.libreoffice.org/c/core/+/187658) - Fixes formatting inconsistency.
+* [Patch 187792](https://gerrit.libreoffice.org/c/core/+/187792) - Introduces clipboard support for Markdown format.
+* [patch 188067](https://gerrit.libreoffice.org/c/core/+/188067) - Introduces a new dialog for pasting plain text as Markdown.
+* [Patch 188528](https://gerrit.libreoffice.org/c/core/+/188528) - Enables pasting of Markdown tables directly from the clipboard into Calc.
+* [Patch 190084](https://gerrit.libreoffice.org/c/core/+/190084) - Adds missing inline code span.
+* [Patch 190286](https://gerrit.libreoffice.org/c/core/+/190286) - Fixes progress bar.
+* [Patch 190976](https://gerrit.libreoffice.org/c/core/+/190976) - Adds missing task lists symbols.
+* [Patch 190953](https://gerrit.libreoffice.org/c/core/+/190953) - Refactor: Improve Image Handling.
+* [Patch 191102](https://gerrit.libreoffice.org/c/core/+/191102) - Unique name for images and better image representation.
 
 ## Future Work
 * **Optimize Performance**: Enhance the importer to improve efficiency and reduce loading times for large Markdown files.
-* **Robust Error Handling**: Strengthen the importer’s error handling to gracefully handle errors encountered during conversion
 * **Error Reduction & Completeness**: Resolve any remaining conversion errors, while ensuring that all Markdown elements are fully and accurately mapped into Writer.
-* **Extend Support to Impress**: Continue work on importing Markdown files into LibreOffice Impress ([currently under development](https://gerrit.libreoffice.org/c/core/+/189448)).
+* **Extend Support to Impress**: Continue work on importing Markdown files into LibreOffice Impress ([Work In Progress Patch](https://gerrit.libreoffice.org/c/core/+/189448)).
