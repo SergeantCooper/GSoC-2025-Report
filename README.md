@@ -55,7 +55,7 @@ The screenshots below illustrate the impact of the new Markdown import filter, s
 * [Patch 188067](https://gerrit.libreoffice.org/c/core/+/188067) - Introduces a new dialog for pasting plain text as Markdown.
 * [Patch 188528](https://gerrit.libreoffice.org/c/core/+/188528) - Enables pasting of Markdown tables directly from the clipboard into Calc.
 * [Patch 190084](https://gerrit.libreoffice.org/c/core/+/190084) - Adds missing inline code span.
-* [Patch 190286](https://gerrit.libreoffice.org/c/core/+/190286) - Fixes progress bar.
+* [Patch 190286](https://gerrit.libreoffice.org/c/core/+/190286) - Fixes document loading progress bar when importing Markdown files.
 * [Patch 190976](https://gerrit.libreoffice.org/c/core/+/190976) - Adds missing task lists symbols.
 * [Patch 190953](https://gerrit.libreoffice.org/c/core/+/190953) - Refactor: Improve Image Handling.
 * [Patch 191102](https://gerrit.libreoffice.org/c/core/+/191102) - Unique name for images and better image representation.
