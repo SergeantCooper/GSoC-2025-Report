@@ -26,12 +26,12 @@ This consists of these core patches:
 * [Patch 186485](https://gerrit.libreoffice.org/c/core/+/186485) - Implements the core document conversion.
 
 ## Demonstration
-| Before                                            | After                                         |
-| -------------                                         | -------------                                     |
-| ![](./before.png)                                     |  ![](./after.png)                                 |
-| No Formatting Present in the document.                    | Document is correctly formatted.                  |
+| Before                                                 | After                                                         |
+| ------------------------------------------------------ | ------------------------------------------------------------- |
+| ![](./before.png)                                      |  ![](./after.png)                                             |
+| No Formatting Present in the document.                 | Document is correctly formatted.                              |
 | Plain text without structure.                          | Well-structured document with proper formatting applied.      |
-| Limited usability of Markdown content in LibreOffice.  | Seamless integration of Markdown into LibreOffice workflow. |
+| Limited usability of Markdown content in LibreOffice.  | Seamless integration of Markdown into LibreOffice workflow.   |
 
 ## Contributions Overview
 ### Core Patches
