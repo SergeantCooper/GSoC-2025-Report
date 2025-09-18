@@ -27,6 +27,8 @@ This consists of these core patches:
 
 ## Demonstration
 
+The screenshots below illustrate the impact of the new Markdown import filter, showing how a plain text Markdown file is transformed into a well-structured, formatted document in Writer.
+
 | Before                                                 | After                                                         |
 | ------------------------------------------------------ | ------------------------------------------------------------- |
 | ![](./before.png)                                      |  ![](./after.png)                                             |
