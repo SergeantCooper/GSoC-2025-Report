@@ -50,7 +50,7 @@ This consists of these core patches:
 * [Patch 187659](https://gerrit.libreoffice.org/c/core/+/187659) - Registers Markdown filter in registry
 * [Patch 187658](https://gerrit.libreoffice.org/c/core/+/187658) - Fixes formatting inconsistency.
 * [Patch 187792](https://gerrit.libreoffice.org/c/core/+/187792) - Introduces clipboard support for Markdown format.
-* [patch 188067](https://gerrit.libreoffice.org/c/core/+/188067) - Introduces a new dialog for pasting plain text as Markdown.
+* [Patch 188067](https://gerrit.libreoffice.org/c/core/+/188067) - Introduces a new dialog for pasting plain text as Markdown.
 * [Patch 188528](https://gerrit.libreoffice.org/c/core/+/188528) - Enables pasting of Markdown tables directly from the clipboard into Calc.
 * [Patch 190084](https://gerrit.libreoffice.org/c/core/+/190084) - Adds missing inline code span.
 * [Patch 190286](https://gerrit.libreoffice.org/c/core/+/190286) - Fixes progress bar.
