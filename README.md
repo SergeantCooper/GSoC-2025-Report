@@ -59,6 +59,7 @@ The screenshots below illustrate the impact of the new Markdown import filter, s
 * [Patch 190976](https://gerrit.libreoffice.org/c/core/+/190976) - Adds missing task lists symbols.
 * [Patch 190953](https://gerrit.libreoffice.org/c/core/+/190953) - Refactor: Improve Image Handling.
 * [Patch 191102](https://gerrit.libreoffice.org/c/core/+/191102) - Unique name for images and better image representation.
+* [Patch 191225](https://gerrit.libreoffice.org/c/core/+/191225) - Removes selection dialog for markdown when pasting.
 
 ## Future Work
 * **Optimize Performance**: Enhance the importer to improve efficiency and reduce loading times for large Markdown files.
